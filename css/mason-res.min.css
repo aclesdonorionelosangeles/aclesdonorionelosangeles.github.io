@@ -1,0 +1,38 @@
+/*Rafael PacMe CSS: MasonPics (Port of Pinterest Photo View)
+	Little Library for this project.
+  (c) Rafael PacMe <rafy.pachecomendez@gmail.com>
+*/
+
+.imagenes {
+	margin: 2.5%;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+ 
+.elemento {
+	margin: 5px auto;
+	position: relative;
+	box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.22);
+ }
+ 
+.elemento p {
+	padding: 1px;
+	font-size: 13px;
+}
+
+@media all and (max-width: 500px) {
+    .imagenes {
+    	margin: 0%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.elemento {
+		background-color: #2d2d2d;
+		box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.22);
+	}
+}
