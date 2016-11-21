@@ -107,12 +107,12 @@ li.active > a.nav-button {
   padding: 0;
 }
 .parallax.p1 {
-  background: url("../img/artes_circenses/banner.png") no-repeat fixed 50% 0;
+  background: url("../img/handball/2.JPG") no-repeat fixed 50% 0;
   background-size: cover;
   color: #fff;
 }
 .parallax.p2 {
-  background: url("../img/artes_circenses/4.JPG") no-repeat fixed 70% 0;
+  background: url("../img/handball/11.jpg") no-repeat fixed 70% 0;
   background-size: cover;
   color: #fff;
   margin-bottom: 15px;
