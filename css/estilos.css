@@ -107,7 +107,7 @@ li.active > a.nav-button {
   padding: 0;
 }
 .parallax.p1 {
-  background: url("../img/banner.png") no-repeat fixed 50% 0;
+  background: url("../img/prinicipal.png") no-repeat fixed 50% 0;
   background-size: cover;
   color: #fff;
 }
